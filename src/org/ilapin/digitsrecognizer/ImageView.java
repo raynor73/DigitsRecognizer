@@ -7,8 +7,9 @@ public class ImageView extends JPanel {
 
 	private Image mImage;
 
-	public void setmImage(final Image image) {
+	public void setImage(final Image image) {
 		mImage = image;
+		repaint();
 	}
 
 	@Override
