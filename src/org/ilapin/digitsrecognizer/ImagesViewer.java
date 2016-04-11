@@ -19,6 +19,7 @@ public class ImagesViewer {
 	private JButton mShowButton;
 	private ImageView mImageView;
 	private JButton mRecognizeButton;
+	private ViewForDrawing mViewForDrawing;
 
 	private ImagesViewer() {
 		mShowButton.addActionListener(new ActionListener() {
